@@ -1,9 +1,22 @@
 import { Container, Typography} from '@mui/material';
 import { сurrencyAPI } from '../services/сurrencyService';
 import CoursesList from '../components/CoursesList';
+import { useEffect } from 'react';
+
+
+const fetchTestData = async()=>{
+  const res = await fetch('https://test-url.com');
+  const data = await res.json();
+  console.log(data)
+}
+
 
 const Home = () => {
   const {data, isLoading} = сurrencyAPI.useFetchCurrencyCurrentDateQuery();
+
+  useEffect(() => {
+    fetchTestData()
+  }, []);
 
   return (
     <Container sx={{ paddingTop: 4 }}>

@@ -1,23 +1,78 @@
-# Dependency directories
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
 /node_modules
-yarn.lock
-
-# Environment configuration
+/.pnp
+.pnp.js
 .env
+# testing
+/coverage
 
-# Logs
-/logs
-*.log
-
-# Built output
+# production
 /build
 
-# IDE and editor files
-.idea
-.vscode
-*.sublime-project
-*.sublime-workspace
-
-# OS generated files
+# misc
 .DS_Store
-Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.dev
+.env.production
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+.firebase/
+.firebaserc
+.github/
+firebase.json
+
