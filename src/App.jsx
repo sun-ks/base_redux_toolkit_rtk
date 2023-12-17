@@ -9,6 +9,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+import RoutesApp from './RoutesApp'
 
 const App = () => {
   return (
@@ -30,12 +31,7 @@ const App = () => {
         </Toolbar>
       </Container>
     </AppBar>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/changed-courses" element={<ChangedCourses />} />
-      <Route path="/courses-search" element={<CourseSearch />} />
-      <Route path="/edit-course/*" element={<EditCourse />} />
-    </Routes>
+    <RoutesApp/>
   </Router>
   );
 };
