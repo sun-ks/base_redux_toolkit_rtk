@@ -19,7 +19,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Container sx={{ paddingTop: 4 }}>
+    <Container  sx={{ paddingTop: 4 }}>
       <Typography variant="h6" gutterBottom marginBottom={4}>
         Currency list for today:
       </Typography>

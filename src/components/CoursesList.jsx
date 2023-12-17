@@ -53,6 +53,7 @@ const CoursesList = ({data}) => {
   return (
     <>
       <TextField
+        data-testid="courses-list"
         label="Filter Currency"
         variant="outlined"
         value={filterText}

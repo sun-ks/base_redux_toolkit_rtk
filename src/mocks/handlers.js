@@ -7,7 +7,7 @@ export const handlers = [
         "r030":36,"txt":"Австралійський долар","rate":10000,"cc":"AUD","exchangedate":"05.12.2023"
       },
       { 
-        "r030":36,"txt":"TEST 1111","rate":10000,"cc":"AUD","exchangedate":"05.12.2023"
+        "r030":36,"txt":"TEST 3333","rate":10000,"cc":"AUD","exchangedate":"05.12.2023"
       }
     ])),
   http.get('https://test-url.com', () => 
